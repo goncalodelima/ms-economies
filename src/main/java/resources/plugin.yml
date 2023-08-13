@@ -1,0 +1,14 @@
+name: ms-economies
+authors: [ ReeachyZ_ ]
+version: 1.0.0
+main: pt.gongas.economy.EconomyPlugin
+description: https://minecraft-solutions.com
+commands:
+  cash:
+    aliases: [ points, pontos ]
+  flowers:
+    aliases: [ flores, flor ]
+  heads:
+  money:
+    aliases: [ dinheiro ]
+  tokens:

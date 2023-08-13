@@ -1,0 +1,11 @@
+ranking:
+  size: 36
+  title: "%currency% - TOP"
+  layout:
+    - "PPPPPPPPP"
+    - "POOOOOOOP"
+    - "<PPOOOPP>"
+    - "PPPPPPPPP"
+  nobody: "&cNinguém"
+  name: "&f%position%º &e%player%"
+  lore: "&7Quantidade de %currency_lowercase%: &f%amount%"

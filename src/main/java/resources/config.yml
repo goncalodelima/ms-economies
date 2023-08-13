@@ -1,0 +1,14 @@
+MySQL:
+  enable: false #se false, vai usar SQLite
+  hostname: "host"
+  database: "db"
+  password: "password"
+  port: 3306
+
+#coloque todos os nomes das economias aqui (letras minusculas) e depois coloque todos os comandos na plugin.yml na categoria 'commands'
+economies:
+  - "cash"
+  - "flowers"
+  - "heads"
+  - "money"
+  - "tokens"
