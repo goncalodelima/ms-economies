@@ -9,6 +9,8 @@ public class CurrencyAPI {
 
     public List<String> getCurrencies() { return CurrencyType.getCurrencies(); }
 
+    public double getAmount(Currency currency) { return currency.getAmount(); }
+
     public void setAmount(Currency currency, double amount) { currency.setAmount(amount); }
 
     public void addAmount(Currency currency, double amount) { currency.addAmount(amount); }

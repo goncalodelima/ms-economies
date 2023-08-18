@@ -8,7 +8,16 @@ MySQL:
 #coloque todos os nomes das economias aqui (letras minusculas) e depois coloque todos os comandos na plugin.yml na categoria 'commands'
 economies:
   - "cash"
-  - "flowers"
+  - "flores"
   - "heads"
   - "money"
   - "tokens"
+  - "fragmentos"
+
+#inicial-amount-currency
+inicial-amount-cash: 0 #quantidade inicial que vem quando o jogador entra pela primeira vez
+inicial-amount-flores: 0
+inicial-amount-heads: 0
+inicial-amount-money: 4999.9
+inicial-amount-tokens: 0
+inicial-amount-fragmentos: 0

@@ -5,10 +5,8 @@ main: pt.gongas.economy.EconomyPlugin
 description: https://minecraft-solutions.com
 commands:
   cash:
-    aliases: [ points, pontos ]
-  flowers:
-    aliases: [ flores, flor ]
+  flores:
   heads:
   money:
-    aliases: [ dinheiro ]
   tokens:
+  fragmentos:

@@ -1,11 +1,12 @@
 ranking:
   size: 36
-  title: "%currency% - TOP"
+  title: "Ranking em tempo real"
   layout:
     - "PPPPPPPPP"
     - "POOOOOOOP"
-    - "<PPOOOPP>"
+    - "PPPOOOPPP"
     - "PPPPPPPPP"
   nobody: "&cNinguém"
-  name: "&f%position%º &e%player%"
-  lore: "&7Quantidade de %currency_lowercase%: &f%amount%"
+  item:
+    name: "&f%position%º &e%player%"
+    lore: "&7Quantidade de %currency_lowercase%: &f%amount%"
