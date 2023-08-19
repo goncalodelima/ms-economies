@@ -1,6 +1,7 @@
 package pt.gongas.economy.api;
 
 import pt.gongas.economy.EconomyPlugin;
+import pt.gongas.economy.currency.Currency;
 import pt.gongas.economy.user.User;
 import pt.gongas.economy.user.manager.UserManager;
 
@@ -28,5 +29,7 @@ public class UserAPI {
     public User getUser(String playerName) {
         return userManager.getUser(playerName);
     }
+
+    public Currency getCurrency(User user, String type) { return user.getCurrency(type); }
 
 }
